@@ -1,5 +1,10 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
-  background-color: rgb(240, 235, 219);
+  background-color: #e3f0fa;
+  font-size: 1.6rem;
 }
 
 p {
@@ -7,8 +12,8 @@ p {
 }
 
 nav {
-  background-color: #131313;
-  color: whitesmoke;
+  background-color: #1a3641;
+  color: #e3f0fa;
 }
 
 nav ul {
@@ -20,11 +25,16 @@ nav ul li {
   margin: 10px;
 }
 
+nav a:focus,
+nav a:hover {
+  color: #e3f0fa;
+}
+
 /*
   Reminder to Mr. Hardman that Mr. Hardman did this.
 */
 .nav-link {
-  color: whitesmoke;
+  color: #faf5e3;
 }
 
 .information-text {
@@ -32,4 +42,8 @@ nav ul li {
   width: 35%;
   display: inline-block;
   margin-left: 10%;
+}
+
+#img-banner {
+  background-color: #ffffff;
 }
