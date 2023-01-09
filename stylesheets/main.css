@@ -5,6 +5,7 @@ html {
 body {
   background-color: #e3f0fa;
   font-size: 1.6rem;
+  margin: 5%;
 }
 
 p {
@@ -23,11 +24,17 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin: 10px;
+  padding: 15px;
+}
+
+nav a {
+  padding: 14px;
 }
 
 nav a:focus,
 nav a:hover {
-  color: #e3f0fa;
+  background-color: #e3f0fa;
+  color: #1a3641;
 }
 
 /*
@@ -46,4 +53,8 @@ nav a:hover {
 
 #img-banner {
   background-color: #ffffff;
+}
+
+#fort-garry {
+  margin-left: 65%;
 }
