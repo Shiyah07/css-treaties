@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: #e3f0fa;
+  background-color: #fafeff;
   font-size: 1.6rem;
   margin: 5%;
 }
@@ -13,8 +13,8 @@ p {
 }
 
 nav {
-  background-color: #1a3641;
-  color: #e3f0fa;
+  background-color: #445564;
+  color: #fafeff;
 }
 
 nav ul {
@@ -33,8 +33,8 @@ nav a {
 
 nav a:focus,
 nav a:hover {
-  background-color: #e3f0fa;
-  color: #1a3641;
+  background-color: #f0f7f9;
+  color: #445564;
 }
 
 /*
@@ -45,10 +45,11 @@ nav a:hover {
 }
 
 .information-text {
-  font-size: 17px;
-  width: 35%;
+  color: #f0f7f9;
+  font-size: 20px;
+  width: 100%;
   display: inline-block;
-  margin-left: 10%;
+  margin-left: 22%;
 }
 
 #img-banner {
@@ -57,4 +58,19 @@ nav a:hover {
 
 #fort-garry {
   margin-left: 65%;
+  margin-top: 20px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+.row {
+  background-color: #445564;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
