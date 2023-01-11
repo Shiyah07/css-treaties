@@ -64,7 +64,7 @@ nav a:hover {
 .column {
   float: left;
   width: 33.33%;
-  padding: 10px;
+  padding-left: 40px;
 }
 .row {
   background-color: #445564;
@@ -73,4 +73,13 @@ nav a:hover {
   content: "";
   display: table;
   clear: both;
+}
+
+.media-text {
+  color: #f0f7f9;
+  font-size: 20px;
+  width: 100%;
+  display: inline-block;
+  margin-left: 75%;
+  margin-top: 10%;
 }
